@@ -7,6 +7,7 @@ public class Lab005 {
         System.out.println(age);
         float f = 12;
         System.out.println(f);
+
         // int -> data type - whole no(no decimal)
         //age -> variable_name - identifier
         // = ->literal/variable_value
