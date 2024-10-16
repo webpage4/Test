@@ -2,10 +2,11 @@ package Oct.ex_15102024;
 
 public class Lab040 {
     public static void main(String[] args) {
-        int a = 10;
-        int b= 20;
-        int c= 30;
-        String max = (a>b && a<c)?"a":(b>a && b>c)?"b":(c>a && c>b)?"c":"none";
+        int a = 8;
+        int b= 10;
+        int c= 13;
+        //String max = (a>b && a>c)?"a":(b>a && b>c)?"b":(c>a && c>b)?"c":"none";
+        int max = (a>=b && a>=c)?a:(b>=c)?b:c;
         System.out.println("Max no "+ max);
 
     }
