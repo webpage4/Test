@@ -1,9 +1,8 @@
 package Oct.ex_18102024;
 
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
-public class Lab064 {
+public class Lab064_Convertor {
     public static void main(String[] args) {
 //        Write a program that converts between different units (e.g., kilometers to miles, Celsius to Fahrenheit) based on user selection using a switch statement.
 //                Input. -
