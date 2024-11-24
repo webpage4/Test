@@ -8,6 +8,11 @@ public class Lab086 {
         System.out.println("Enter the word");
         String wor = sc.next();
         int count = 0;
+        char ch = 0;
+
+
+
+
 
     }
 }
