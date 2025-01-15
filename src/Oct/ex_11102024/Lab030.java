@@ -6,13 +6,16 @@ public class Lab030 {
         // +=, -=, /=, *=
         int a= 10;
         a +=10; // a = a+10
-        System.out.println(a);
         a -=10; // a = a-10
-        System.out.println(a);
         a /=10; // a = a/10
-        System.out.println(a);
         a *=10; // a = a*10
         System.out.println(a);
+
+        // new Operator - In Future in OOPs
+        String name = new String("Pramod");
+        // new  - new memory or object in heap area
+        // instanceOf - operator
+        System.out.println(name instanceof String);
 
     }
 }
