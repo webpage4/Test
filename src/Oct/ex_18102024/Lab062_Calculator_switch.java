@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lab062_Calculator_switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-//  Create a simple calculator that performs addition, subtraction, multiplication, and division, modus based on user input using switch statements.
+//  Create a simple calculator that performs addition, subtraction, multiplication, and division, modulus based on user input using switch statements.
 //  Inputs :   num 1, num 2, +
 //  Output :  num1+num2 → print information.
         System.out.println("Please enter 1 for Addition, 2 for Subtraction, 3 for multiplication & 4 for modulus:");
@@ -18,7 +18,7 @@ public class Lab062_Calculator_switch {
         switch (op){
             case 1:
                 res = num1+num2;
-                System.out.println("Addition =" + res);
+                System.out.println("Addition = " + res);
                 break;
             case 2:
                 if (num1>=num2){
@@ -27,11 +27,11 @@ public class Lab062_Calculator_switch {
                 else {
                     res = num2- num1;
                 }
-                System.out.println("Subtraction =" + res);
+                System.out.println("Subtraction = " + res);
                 break;
             case 3:
                 res = num1*num2;
-                System.out.println("Multiplication =" + res);
+                System.out.println("Multiplication = " + res);
                 break;
             case 4:
                 if (num1>=num2){
@@ -40,7 +40,7 @@ public class Lab062_Calculator_switch {
                 else {
                     res = num2%num1;
                 }
-                System.out.println("Modulus =" +res);
+                System.out.println("Modulus = " +res);
                 break;
             default:
                 System.out.println("You have selected invalid choice.");

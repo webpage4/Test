@@ -1,9 +1,8 @@
 package Oct.ex_17102024;
 
-import javax.swing.*;
 import java.util.Scanner;
 
-public class Lab052 {
+public class Lab052_Grade_Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // ✅ Grade Calculator:
@@ -34,24 +33,20 @@ public class Lab052 {
 
 
         // 3. Write the code
+
         System.out.println("Give your score and grade will be displayed: ");
         float score = sc.nextFloat();
         char grade = 'x';
         if(score>=90 && score<=100){
-//            System.out.println("A");
             grade = 'A';
         } else if (score>=80 && score<=89) {
-//            System.out.println("B");
             grade = 'B';
         } else if (score>=70 && score<=79) {
-//            System.out.println("C");
             grade = 'C';
         }
         else if (score>=60 && score<=69){
-//            System.out.println("D");
             grade = 'D';
         } else if (score>=0 && score<=59) {
-//            System.out.println("F");
             grade = 'F';
         }
         else{
@@ -59,5 +54,6 @@ public class Lab052 {
         }
         System.out.println("Your grade is " + grade);
         sc.close();
+
     }
 }

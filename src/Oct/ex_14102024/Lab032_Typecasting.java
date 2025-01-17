@@ -1,6 +1,6 @@
 package Oct.ex_14102024;
 
-public class Lab032 {
+public class Lab032_Typecasting {
     public static void main(String[] args) {
         // Type Casting
         // Widening - Implicit, Explicit - lossless

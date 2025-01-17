@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab022 {
+public class Lab022_Operator_Overloading {
     public static void main(String[] args) {
         int a = 20;
         int b = 50;

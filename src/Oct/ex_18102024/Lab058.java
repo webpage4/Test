@@ -6,7 +6,8 @@ public class Lab058 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // JDK>13 only
-        int itemcode = 003;
+        System.out.println("Enter the item code: ");
+        int itemcode = sc.nextInt();
 
         switch (itemcode) {
             case 001, 002, 003:

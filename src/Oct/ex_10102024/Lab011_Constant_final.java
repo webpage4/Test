@@ -1,6 +1,6 @@
 package Oct.ex_10102024;
 
-public class Lab011 {
+public class Lab011_Constant_final {
     public static void main(String[] args) {
         final float pi = 3.14f;
         //final -> keyword

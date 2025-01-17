@@ -1,6 +1,6 @@
 package Oct.ex_10102024;
 
-public class Lab016 {
+public class Lab016_Literals {
     public static void main(String[] args) {
 
         //Boolean literal -- true and false
