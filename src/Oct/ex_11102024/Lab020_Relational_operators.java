@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab020 {
+public class Lab020_Relational_operators {
     public static void main(String[] args) {
         //Relational operators
         // < (Less than)

@@ -12,6 +12,11 @@ public class Lab045 {
         int max = (num1>num2)?num1:num2;
         System.out.println("Maximum number is "+ max);
 
+
+//        String res = (a>b)?"Maximum : a":(b>a)?"Maximum :b": "Equal";
+//        System.out.println(res);
+
+
         scanner.close();
 
     }

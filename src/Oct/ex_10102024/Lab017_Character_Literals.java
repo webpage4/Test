@@ -1,6 +1,6 @@
 package Oct.ex_10102024;
 
-public class Lab017 {
+public class Lab017_Character_Literals {
     public static void main(String[] args) {
         //Character literals
         int c1 = 'A';

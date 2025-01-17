@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab019 {
+public class Lab019_Assignment_operator {
     public static void main(String[] args) {
         int abc = 10;
         // = -> assignment operator

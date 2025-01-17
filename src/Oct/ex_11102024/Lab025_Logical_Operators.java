@@ -1,7 +1,8 @@
 package Oct.ex_11102024;
 
-public class Lab025 {
+public class Lab025_Logical_Operators {
     public static void main(String[] args) {
+        //Logical Operators
         // NOT --!, AND -- && , OR --||
         boolean a = true;
         boolean b = true;

@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab030 {
+public class Lab030_Compound_Assignment_Operator {
     public static void main(String[] args) {
         // Compound Assignment Operators
         // +=, -=, /=, *=

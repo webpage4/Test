@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab021 {
+public class Lab021_Unary_operator {
     public static void main(String[] args) {
         //Unary Operator
         int a = 65;

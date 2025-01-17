@@ -16,6 +16,8 @@ public class Lab044 {
         System.out.println("Salary: " + salary);
 
 
+
+
         scanner.close();
 
     }
