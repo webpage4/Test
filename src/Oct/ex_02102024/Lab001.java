@@ -6,3 +6,4 @@ public class Lab001 {
         System.out.println("Aditi Badge");
     }
 }
+

@@ -3,7 +3,8 @@ package Oct.ex_21102024;
 public class Lab067 {
     public static void main(String[] args) {
         final boolean b1 = true;
-        // b1 = false;
+        //b1 = false;
+        //final keyword
 
         final boolean is_pramod_married = true;
         //is_pramod_married = false;
@@ -12,12 +13,12 @@ public class Lab067 {
 //            System.out.println("Hello");
 //        }
 //
-        for (int i = 0; ; ) {
-            System.out.println("Hello");
-        }
-
-//        for (; ; ) {
+//        for (int i = 0; ; ) {
 //            System.out.println("Hello");
 //        }
+//
+        for (; ; ) {
+            System.out.println("Hello");
+        }
     }
 }

@@ -6,6 +6,6 @@ public class Lab069 {
         for (int i = 0; i > 0 ; i--) {
             System.out.println(i);
         }
-        //no output
+        //no output as condition is wrong
     }
 }
