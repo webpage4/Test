@@ -13,7 +13,7 @@ public class Lab007_boolean {
             boolean $ = true;
             boolean _= true;
             boolean pramod_is_very_good_person = true;
-//        boolean 123pramod = true;
+            //boolean 123pramod = true;
             boolean pramod123 = true;
             boolean _123 = true;
             boolean PRAMOD = true;

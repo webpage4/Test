@@ -1,6 +1,6 @@
 package Oct.ex_08102024;
 
-public class lab008 {
+public class Lab008_variable {
     public static void main(String[] args) {
         // Primitive Data Type
         byte b  = 100; // 8 bits, 1 Byte

@@ -10,5 +10,7 @@ public class Lab012 {
         age = 10;
         // age = 22; -- Not possible we cannot reassign value
         System.out.println(age);
+        System.out.printf("%s\n",str);
+        System.out.printf("%d",a);
     }
 }

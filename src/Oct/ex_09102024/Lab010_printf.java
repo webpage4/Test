@@ -1,6 +1,6 @@
 package Oct.ex_09102024;
 
-public class Lab010 {
+public class Lab010_printf {
     public static void main(String[] args) {
         int age = 10;
         System.out.printf("Your age is %d",age);
