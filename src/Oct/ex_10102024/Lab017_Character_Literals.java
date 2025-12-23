@@ -7,17 +7,17 @@ public class Lab017_Character_Literals {
         int c2 = '@';
 
         //Escape Character
+        char add = '$';
+        char symbol = '@';
         char new_line = '\n';
         char tab_line = '\t';
         char back_space = '\b';
         char carriage_return = '\r';
 
-        System.out.println("New line --"+"Aditi" + new_line + "Badge");
-        System.out.println("Tab line --"+"Aditi" + tab_line + "Badge");
-        System.out.println("Back space --"+"Aditi" + back_space + "Badge");
-        System.out.println(" Deletes previous word --"+"Aditi" + carriage_return + "Badge");
-
-
+        System.out.println("New line --"+"Aditi" + new_line+ add + c2 + "Badge");
+        System.out.println("Tab line --"+"Aditi" + tab_line + symbol + "Badge");
+        System.out.println("Back space (deletes previous letter)--"+"Aditi" + back_space + "Badge");
+        System.out.println("It moves the cursor to the beginning of the line --"+"Aditi" + carriage_return + "Badge");
 
     }
 }
