@@ -3,6 +3,7 @@ package Oct.ex_11102024;
 public class Lab019_Assignment_operator {
     public static void main(String[] args) {
         int abc = 10;
+        System.out.println(abc);
         // = -> assignment operator
         // RHV to the LH
         // Arithmetic Operators
@@ -18,6 +19,5 @@ public class Lab019_Assignment_operator {
         System.out.println(a*b);
         System.out.println(a/b);
         System.out.println(a%b);
-
     }
 }

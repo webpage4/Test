@@ -9,8 +9,7 @@ public class Lab028 {
         System.out.println(false || true);
         System.out.println(false || false);
 
-
-        //  And  && // only true && true returns true
+        //  And  && only true && true returns true
         // T || T -> T
         // T || F -> F
         // F || T -> F

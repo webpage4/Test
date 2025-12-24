@@ -1,6 +1,6 @@
 package Oct.ex_11102024;
 
-public class Lab023 {
+public class Lab023_Concatenation {
     public static void main(String[] args) {
         String first_name = "Pramod";
         String last_name = "Dutta";
@@ -11,5 +11,6 @@ public class Lab023 {
         //Left to right
         System.out.println(a + b + first_name + last_name);
         // First operator is int  + mathematics rules will be followed -> 20PramodDutta
+        System.out.println(first_name + last_name + (a + b));
     }
 }

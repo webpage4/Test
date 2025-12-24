@@ -7,7 +7,7 @@ public class Lab026_Comparison_Operator {
         System.out.println( 10 == 10);
         System.out.println( 10 == 20);
         System.out.println( 10 < 10);
-        System.out.println( 10 <= 10); // 10 < 10 or 10 = 10
+        System.out.println( 10 <= 10); // 10 < 10 or 10 = 10 - OR gate
         System.out.println( 10 >= 10); //  10> 10 or 10 = 10
 
 
