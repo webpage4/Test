@@ -22,5 +22,11 @@ public class Lab031 {
         System.out.println('A' == 65);
         System.out.println('B' == 65);
 
+        short s = 10;
+        char c1 = 'A'; //65 - ASCII value
+        System.out.println(s);
+        System.out.println(c1);
+        System.out.println(s+c1); //only while concatenation of char the ASCII value is considered
+
     }
 }

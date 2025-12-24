@@ -6,15 +6,19 @@ public class Lab032_Typecasting {
         // Widening - Implicit, Explicit - lossless
         // Narrowing - Implicit, Explicit(with data type), loss
 
-        //Widening - Converting small datatype to large
+        // Widening - Converting small datatype to large
+        //Widening -small to large possible both implicitly and explicitly without any loss of data
         byte b = 10;
-        int a = b; // Valid -> Implicit Casting - JVM
-        int a1 = (int)b; // Valid -> Explicit Casting - JVM
+        int a = b; //Implicit - indirectly - JVM
+        int a1 = (int)b; //Explicit - directly - JVM
+
 
         //Narrowing - Converting large datatype to small
-        int v = 200;
-        //byte b1 = v; // Invalid - Implicit Casting - JVM
-        byte b2 = (byte)v; // Valid -> Explicit Casting - User - In this case data will overflow
+        //Narrowing -large to small possible only explicitly that too with loss of data
+        int i = 200;
+        // byte b1 = i; Implicit - Invalid - JVM
+        byte b1 = (byte)i; // Explicit - User - Valid - data overflow - loss of data
+        System.out.println(b1);
 
     }
 }
