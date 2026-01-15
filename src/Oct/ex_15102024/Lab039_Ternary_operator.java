@@ -8,10 +8,11 @@ public class Lab039_Ternary_operator {
         // - result = condition ? expression1 : expression2;
         // Result = condition ? if yes then first expression: else expression 2
         Scanner Scanner = new Scanner(System.in);
-//        int num = 5;
-//        String res = num>0 ? "Positive" : "Negative";
-//        System.out.println("The number is " + res);
-//
+        int num = 5;
+        String res = num>0 ? "Positive" : "Negative";
+        System.out.println("The number is " + res);
+
+
 //        int age = 21;
 //        String vote = age>18 ? "Allowed to vote" : "Not allowed to vote";
 //        System.out.println(vote);

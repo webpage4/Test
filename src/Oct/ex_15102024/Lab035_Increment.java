@@ -1,6 +1,6 @@
 package Oct.ex_15102024;
 
-public class Lab035 {
+public class Lab035_Increment {
     public static void main(String[] args) {
         // PRE  increment - ++operand.
        // value is incremented first and then stored in the result.

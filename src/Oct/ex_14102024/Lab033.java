@@ -8,7 +8,5 @@ public class Lab033 {
         short a = (short)p_no; // Explicit - data overflow - loss of data
         System.out.println(a);
         System.out.println(p_no);
-
-
     }
 }

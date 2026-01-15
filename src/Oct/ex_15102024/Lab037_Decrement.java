@@ -1,6 +1,6 @@
 package Oct.ex_15102024;
 
-public class Lab037 {
+public class Lab037_Decrement {
     public static void main(String[] args) {
         // PRE  decrement - ++operand.
         // value is decremented first and then stored in the result.

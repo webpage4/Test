@@ -3,12 +3,11 @@ package Oct.ex_15102024;
 public class Lab040 {
     public static void main(String[] args) {
         int a = 8;
-        int b= 10;
-        int c= 13;
-        //String max = (a>b && a>c)?"a":(b>a && b>c)?"b":(c>a && c>b)?"c":"none";
-        int max = (a>=b && a>=c)?a:(b>=c)?b:c;
+        int b= 9;
+        int c= 8;
+        String max = (a>b && a>c)?"a":(b>a && b>c)?"b":(c>a && c>b)?"c":"none"; //no need to check whether b>a as it is already less than it.
+        //int max = (a>=b && a>=c)?a:(b>=c)?b:c;
         System.out.println("Max no "+ max);
-
     }
 }
 /**
