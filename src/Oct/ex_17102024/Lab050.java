@@ -7,6 +7,7 @@ public class Lab050 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int num = sc.nextInt();
+        //odd even program
         if(num%2==0){
             System.out.println("EVEN");
         }
