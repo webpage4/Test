@@ -8,6 +8,7 @@ public class Lab075 {
                 break;
             }
             System.out.println(i);
+
         }
 
     }

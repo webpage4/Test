@@ -2,8 +2,6 @@ package Oct.ex_22102024;
 
 public class Lab082 {
     public static void main(String[] args) {
-
-
         // Two Ways
         // 1 Arguments
         // 2. Scanner Class

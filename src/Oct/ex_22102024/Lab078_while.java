@@ -6,7 +6,7 @@ public class Lab078_while {
         while (i < 10) { // condition
             // Code
             System.out.println(i); // 0,1,2,3,4,5,6,7,8,9 ( 10 Times)
-            i++;
+            i++; // updation
         }
 
         for (int j = 0; j < 10 ; j++) {
