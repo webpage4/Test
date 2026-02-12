@@ -1,6 +1,6 @@
 package Oct.ex_21102024;
 
-public class Lab068 {
+public class Lab068_DataTypes {
     public static void main(String[] args) {
 //        for (float f = 0.0f; f < 10.67; f++) {
 //            System.out.println("Hi,Float -> " + f);
