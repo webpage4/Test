@@ -10,12 +10,23 @@ public class Lab082 {
         // Take a User input for the age and print the output.
         // 30 , 30, 29, 28.....1
 
-        String arg_age_string = args[0];
-        // String -> Int
-        int age = Integer.parseInt(arg_age_string);
+//        String arg_age_string = args[0];
+//        // String -> Int
+//        int age = Integer.parseInt(arg_age_string);
+//        //System.out.println(age);
+//
+//        while (age > 0) {
+//            System.out.println(age);
+//            age--;
+//        }
+
+
+        String str_age = args[0];
+        //Converting string to integer
+        int age = Integer.parseInt(str_age);
         //System.out.println(age);
 
-        while (age > 0) {
+        while(age>0){
             System.out.println(age);
             age--;
         }

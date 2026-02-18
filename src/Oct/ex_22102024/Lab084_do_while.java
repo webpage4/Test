@@ -2,24 +2,31 @@ package Oct.ex_22102024;
 
 public class Lab084_do_while {
     public static void main(String[] args) {
-        int a = 0;
-        do {
-            System.out.println("Run a Code -> " + a);
-            a++;
-        } while (a < 10);
-    }
-
-        //int a = 0;
-//        while (a < 0)
-//        {
-//            System.out.println("Print" + a);
-//            a++;
-//        }
-
+        //WHILE LOOP
 //        int a = 0;
-//        do {
-//            System.out.println("Print" + a);
+//        while(a<=10){
+//            System.out.println(a);
 //            a++;
-//        } while (a < 0);
-    }
+//        } //printing 0 to 10 - while loop
+//        System.out.println("......");
+//        int b = 10;
+//        while(b>=0){
+//            System.out.println(b);
+//            b--;
+//        }//Printing 10 to 0 - while loop
 
+        // DO WHILE LOOP
+        int c = 0;
+        do {
+            System.out.println(c);
+            c++;
+        }while(c<=10);
+        // Printing 0 to 10 - Do while loop
+        System.out.println("......");
+        int d = 10;
+        do{
+            System.out.println(d);
+            d--;
+        }while (d>=0);
+    }
+}
