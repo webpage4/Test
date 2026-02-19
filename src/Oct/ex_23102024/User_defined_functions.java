@@ -20,8 +20,6 @@ public class User_defined_functions {
 
         //calling fourth function
         funct4(2,3);
-
-
     }
 
     //DECLATIONS
